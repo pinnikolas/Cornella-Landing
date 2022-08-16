@@ -9,7 +9,6 @@
 }
 
 .button {
-  padding: 12px 43px;
   border-radius: 24px;
   border: none;
   cursor: pointer;
@@ -60,6 +59,7 @@
     background-color: $mainColor;
 
     margin-left: 48px;
+    padding: 12px 43px;
   }
 
 
@@ -73,13 +73,13 @@
   background-image: url('../images/hero/background-hero.png');
   background-repeat: no-repeat;
 
-  padding: 120px 0 290px;
+  padding: 120px 0 467px;
 
   .container-hero {
 
     img {
       position: absolute;
-      bottom: -25%;
+      bottom: 0%;
     }
 
   }
@@ -104,4 +104,98 @@
       left: 25%;
     }
   }
+}
+
+
+// toward
+
+.toward {
+  padding: 196px 0 164px;
+
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)), #FFCCBC;
+  background-image: url('../images/toward/background-toward.png');
+
+  text-align: center;
+
+  &__title {
+    font-family: $mainFont;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 96px;
+    color: $white;
+
+    max-width: 747px;
+    margin: 0px auto;
+  }
+
+  &__description {
+    color: $white;
+    font-family: $secondFont;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+
+    max-width: 747px;
+    margin: 0px auto;
+    padding: 24px 0 24px;
+
+    span {
+      font-weight: 800;
+    }
+  }
+}
+
+
+// choose
+
+.choose {
+  padding: 118px 0 85px;
+
+  background-color: $mainColor;
+  background-image: url('../images/choose/unicorne-choose.png');
+  background-repeat: no-repeat;
+  background-position: 100% 7px;
+
+  .container-choose {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-family: $secondFont;
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 72px;
+
+    color: $secondColor;
+
+    max-width: 406px;
+  }
+
+  &__description {
+    font-family: $secondFont;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+
+    color: $secondColor;
+
+    max-width: 413px;
+    padding: 32px 0 48px;
+  }
+
+  &__link {
+    font-family: $secondFont;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+
+    color: $secondColor;
+
+    border: 1px solid $secondColor;
+    padding: 14px 31px;
+    border-radius: 110px;
+  }
+
+
 }
