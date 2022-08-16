@@ -109,4 +109,33 @@ img {
   color: #FFCCBC;
   background-color: #0B4141;
   margin-left: 48px;
+}
+
+.hero {
+  position: relative;
+  background-image: url("../images/hero/background-hero.png");
+  background-repeat: no-repeat;
+  padding: 120px 0 290px;
+}
+.hero .container-hero img {
+  position: absolute;
+  bottom: -25%;
+}
+.hero__title {
+  color: #FFCCBC;
+  font-family: "Motter";
+  font-size: 120px;
+  text-align: center;
+  margin: 0px auto;
+  max-width: 747px;
+  position: relative;
+}
+.hero__title span {
+  position: absolute;
+  background: linear-gradient(180deg, #0B4141 45.83%, #0B1F1F 45.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 3;
+  bottom: -45%;
+  left: 25%;
 }/*# sourceMappingURL=style.css.map */
