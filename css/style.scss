@@ -1,0 +1,63 @@
+@import 'scss/reset.scss';
+@import 'scss/fonts';
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;900&family=Roboto:wght@400;700&display=swap');
+
+.container {
+  max-width: 1242px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+
+.button {
+  padding: 12px 43px;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.header {
+  padding: 17px 0;
+
+  .container-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo-link {
+    font-size: 26px;
+    color: $mainColor;
+    font-family: 'Motter';
+    font-weight: 400;
+  }
+
+  &__navigation {
+    display: flex;
+    align-items: center;
+  }
+
+
+  .nav {
+
+    &__list {
+      display: flex;
+      gap: 24px;
+    }
+
+    &__link {
+      font-family: 'Nunito Sans';
+      font-size: 16px;
+      font-weight: 600;
+
+      color: $mainColor;
+    }
+  }
+
+  &__button {
+    color: $thirdColor;
+    background-color: #0B4141;
+
+    margin-left: 48px;
+  }
+
+
+}

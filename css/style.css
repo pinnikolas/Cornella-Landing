@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* Указываем box sizing */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;900&family=Roboto:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul,
+ol {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+button {
+  transition: 0.2s;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: "Motter";
+  src: url("../fonts/MotterCorpusStd-Regular.eot");
+  src: local("☺"), url("../fonts/MotterCorpusStd-Regular.woff") format("woff"), url("../fonts/MotterCorpusStd-Regular.ttf") format("truetype"), url("../fonts/MotterCorpusStd-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  max-width: 1242px;
+  margin: 0px auto;
+  padding: 0 15px;
+}
+
+.button {
+  padding: 12px 43px;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.header {
+  padding: 17px 0;
+}
+.header .container-header {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo-link {
+  font-size: 26px;
+  color: #0B4141;
+  font-family: "Motter";
+  font-weight: 400;
+}
+.header__navigation {
+  display: flex;
+  align-items: center;
+}
+.header .nav__list {
+  display: flex;
+  gap: 24px;
+}
+.header .nav__link {
+  font-family: "Nunito Sans";
+  font-size: 16px;
+  font-weight: 600;
+  color: #0B4141;
+}
+.header__button {
+  color: #FFCCBC;
+  background-color: #0B4141;
+  margin-left: 48px;
+}/*# sourceMappingURL=style.css.map */

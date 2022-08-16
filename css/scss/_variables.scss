@@ -1,0 +1,36 @@
+$mainColor: #0B4141;
+$secondColor: #0B4141;
+
+$thirdColor: #FFCCBC;
+
+@mixin breakpoint($point) {
+  @if $point==flg {
+    @media (max-width: 1141px) {
+      @content;
+    }
+  }
+
+  @else if $point==lg {
+    @media (max-width: 993px) {
+      @content;
+    }
+  }
+
+  @else if $point==md {
+    @media (max-width: 769px) {
+      @content;
+    }
+  }
+
+  @else if $point==sm {
+    @media (max-width: 577px) {
+      @content;
+    }
+  }
+
+  @else if $point==xs {
+    @media (max-width: 321px) {
+      @content;
+    }
+  }
+}
