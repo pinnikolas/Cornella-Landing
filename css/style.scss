@@ -272,9 +272,6 @@
 
   background-color: #E5E5E5;
 
-  // background-image: url('../images/magic/unicornes-magic.png');
-  // background-repeat: no-repeat;
-
   .container-magic {
     position: relative;
     padding-bottom: 371px;
@@ -305,8 +302,85 @@
       font-weight: 700;
     }
   }
+
   img {
     position: absolute;
     bottom: 0;
   }
+}
+
+
+// each
+
+.each {
+  padding: 100px 0 188px;
+
+  background-image: url('../images/each/background-each.png');
+  background-repeat: no-repeat;
+
+  .container-each {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    padding-bottom: 127px;
+  }
+
+  &__images {
+
+    img {
+      position: absolute;
+
+      &:nth-child(1) {
+        top: 0;
+        left: 5%;
+      }
+
+      &:nth-child(2) {
+        top: 55%;
+        left: 31%;
+      }
+
+      &:nth-child(3) {
+        bottom: -26%;
+        left: 0%;
+      }
+
+    }
+  }
+
+  &__text {
+    max-width: 506px;
+  }
+
+  &__title {
+    font-family: $secondFont;
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 72px;
+
+    color: $mainColor;
+  }
+
+  &__description {
+    font-family: $secondFont;
+    font-size: 24px;
+    line-height: 32px;
+
+    color: $mainColor;
+
+    padding: 32px 0 48px;
+  }
+
+  &__button {
+    font-family: $secondFont;
+    font-size: 18px;
+    font-weight: 700;
+
+    border: 2px solid $mainColor;
+    border-radius: 100px;
+    color: $mainColor;
+
+    padding: 14px 39px;
+  }
+
 }

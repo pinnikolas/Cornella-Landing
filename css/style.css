@@ -286,4 +286,57 @@ img {
 .magic img {
   position: absolute;
   bottom: 0;
+}
+
+.each {
+  padding: 100px 0 188px;
+  background-image: url("../images/each/background-each.png");
+  background-repeat: no-repeat;
+}
+.each .container-each {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  padding-bottom: 127px;
+}
+.each__images img {
+  position: absolute;
+}
+.each__images img:nth-child(1) {
+  top: 0;
+  left: 5%;
+}
+.each__images img:nth-child(2) {
+  top: 55%;
+  left: 31%;
+}
+.each__images img:nth-child(3) {
+  bottom: -26%;
+  left: 0%;
+}
+.each__text {
+  max-width: 506px;
+}
+.each__title {
+  font-family: "Nunito Sans";
+  font-size: 68px;
+  font-weight: 900;
+  line-height: 72px;
+  color: #0B4141;
+}
+.each__description {
+  font-family: "Nunito Sans";
+  font-size: 24px;
+  line-height: 32px;
+  color: #0B4141;
+  padding: 32px 0 48px;
+}
+.each__button {
+  font-family: "Nunito Sans";
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid #0B4141;
+  border-radius: 100px;
+  color: #0B4141;
+  padding: 14px 39px;
 }/*# sourceMappingURL=style.css.map */
