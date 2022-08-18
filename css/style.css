@@ -288,6 +288,58 @@ img {
   bottom: 0;
 }
 
+.testimonials {
+  padding: 64px 0 92px;
+  background-image: url("../images/testimonials/background-testimonials.png");
+}
+.testimonials__title {
+  font-family: "Nunito Sans";
+  font-size: 68px;
+  font-weight: 900;
+  color: #fff;
+  padding-bottom: 64px;
+  text-align: center;
+}
+.testimonials__body {
+  display: flex;
+  gap: 24px;
+  max-width: 960px;
+  margin: 0px auto;
+}
+.testimonials__item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 305px;
+}
+.testimonials__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+.testimonials__description {
+  font-family: "Nunito Sans";
+  font-size: 13px;
+  line-height: 18px;
+  color: #0B4141;
+  padding-bottom: 16px;
+}
+.testimonials__people {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.testimonials__name {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  color: #0B4141;
+}
+.testimonials__profession {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  color: #0B4141;
+}
+
 .each {
   padding: 100px 0 188px;
   background-image: url("../images/each/background-each.png");
