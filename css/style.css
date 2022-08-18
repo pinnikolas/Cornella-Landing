@@ -339,4 +339,52 @@ img {
   border-radius: 100px;
   color: #0B4141;
   padding: 14px 39px;
+}
+
+.exist {
+  background: linear-gradient(-51.34deg, #FFCCBC 10.28%, #FFFFFF 64.41%);
+  opacity: 0.9;
+  padding: 152px 0 93px;
+}
+.exist .container-exist {
+  display: flex;
+  position: relative;
+}
+.exist__text {
+  max-width: 472px;
+}
+.exist__logo {
+  text-align: center;
+}
+.exist__title {
+  font-family: "Nunito Sans";
+  font-size: 68px;
+  font-weight: 900;
+  line-height: 72px;
+  padding: 32px 0;
+}
+.exist__description {
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #0B4141;
+  padding-bottom: 32px;
+}
+.exist__description span {
+  font-weight: 800;
+}
+.exist__button {
+  font-family: "Motter";
+  font-size: 18px;
+  font-weight: 700;
+  color: #0B4141;
+  padding: 14px 29px;
+  border: 2px solid #0B4141;
+  border-radius: 100px;
+}
+.exist__image {
+  position: absolute;
+  right: -10%;
+  top: -34.5%;
 }/*# sourceMappingURL=style.css.map */
