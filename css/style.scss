@@ -14,7 +14,6 @@
   cursor: pointer;
 }
 
-
 // header
 
 .header {
@@ -150,15 +149,22 @@
 
 .choose {
   padding: 118px 0 85px;
+  position: relative;
 
   background-color: $mainColor;
-  background-image: url('../images/choose/unicorne-choose.png');
-  background-repeat: no-repeat;
-  background-position: 100% 7px;
+  // background-image: url('../images/choose/unicorne-choose.png');
+  // background-repeat: no-repeat;
+  // background-position: 100% 7px;
 
   .container-choose {
     display: flex;
     justify-content: space-between;
+  }
+
+  &__image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 
   &__title {
@@ -198,4 +204,109 @@
   }
 
 
+}
+
+
+// always
+
+.always {
+  padding: 165px 0 96px;
+
+  &__body {
+    display: flex;
+
+    &:first-child {
+      padding-bottom: 118px;
+    }
+  }
+
+  &__text {
+    width: 50%;
+
+    &:first-child {
+      padding-right: 170px;
+    }
+
+    &:nth-child(2) {
+      padding-left: 170px;
+    }
+  }
+
+  &__title {
+    font-family: $secondFont;
+    font-size: 68px;
+    font-weight: 900;
+    line-height: 72px;
+
+    color: $secondColor;
+  }
+
+  &__description {
+    font-family: $secondFont;
+    font-size: 24px;
+    line-height: 32px;
+
+    padding: 48px 0 32px;
+  }
+
+  &__link {
+    font-family: $secondFont;
+    font-size: 16px;
+    font-weight: 600;
+
+    color: $mainColor;
+    display: flex;
+    align-items: center;
+
+    img {
+      padding-right: 16px;
+    }
+  }
+}
+
+
+// magic
+
+.magic {
+  padding-top: 117px;
+
+  background-color: #E5E5E5;
+
+  // background-image: url('../images/magic/unicornes-magic.png');
+  // background-repeat: no-repeat;
+
+  .container-magic {
+    position: relative;
+    padding-bottom: 371px;
+  }
+
+  &__title {
+    font-family: $mainFont;
+    font-size: 80px;
+    font-weight: 400;
+
+    text-align: center;
+    color: $secondColor;
+  }
+
+  &__description {
+    font-family: $secondFont;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+
+    color: $mainColor;
+
+    padding-top: 24px;
+    max-width: 832px;
+    margin: 0px auto;
+
+    span {
+      font-weight: 700;
+    }
+  }
+  img {
+    position: absolute;
+    bottom: 0;
+  }
 }
